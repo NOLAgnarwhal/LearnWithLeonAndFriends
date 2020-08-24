@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+header, section, footer {
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+
+}
+
+header, footer {
+    height: 100px;
+}
+
+.top {
+    height: 150px;
+    
+}
+
+.bottom-1 {
+    height: 200px;
+    width: 40%;
+    float: left;
+}
+
+.bottom-2 {
+    height: 200px;
+    width: 60%;
+    float: right;
+    
+}
+
+footer {
+    clear: both;
+}
+
+
+
