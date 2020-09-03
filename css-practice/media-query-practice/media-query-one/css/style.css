@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+header, section, footer {
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    
+
+}
+
+.top {
+    float: left;
+    width: 33.3%;
+    height: 150px;
+}
+
+.bottom {
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+header, footer {
+    height: 100px;
+}
+
+footer {
+    clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+    section, .top, .bottom {
+        background: purple;
+        width: 100%;
+    }
+}
