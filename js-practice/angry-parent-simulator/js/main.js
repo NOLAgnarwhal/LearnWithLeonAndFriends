@@ -6,11 +6,11 @@ function run() {
   const lMidName = document.querySelector('#lastMiddle').value
   const lName = document.querySelector('#lastName').value
 
-  document.querySelector('#placeToYell').innerText = fName + ' ' + fMidName + ' ' + ' ' + lMidName + ' ' + lName
+  // document.querySelector('#placeToYell').innerText = fName + ' ' + fMidName + ' ' + ' ' + lMidName + ' ' + lName // Old way of doing concats
 
   //Add what you should be doing - conditionals go here
 
-  // document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}`
+  document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}` // New way of concatinating -- template strings
 }
 
 // const synth = window.speechSynthesis;
